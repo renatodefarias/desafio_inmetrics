@@ -1,0 +1,8 @@
+cadastro:
+  senhas_nao_combinam: 'Senhas não combinam'
+  campo_obrigatorio: 'Campo obrigatório'
+  usuario_ja_cadastrado: 'Usuário já cadastrado'
+
+login:
+  campo_obrigatorio: 'Campo obrigatório'
+  usuario_senha_invalido: 'ERRO! Usuário ou Senha inválidos'

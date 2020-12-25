@@ -1,0 +1,15 @@
+# Platform
+default: CUCUMBER_PUBLISH_ENABLED=true -p chrome -p json_report
+api_log: -p http_log -p api
+
+# Reports
+html_log: --format html --out=report/results.html
+json_report: --format json --out=report/cucumber.json
+
+# Logs
+http_log: HTTP_LOG=true
+
+# Browsers
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+internet_explorer: BROWSER=internet_explorer

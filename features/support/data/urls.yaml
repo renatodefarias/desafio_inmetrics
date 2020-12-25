@@ -1,0 +1,3 @@
+login: 'http://www.inmrobo.tk/accounts/login/'
+register: 'http://www.inmrobo.tk/accounts/signup/'
+logged: 'http://www.inmrobo.tk/empregados/'
